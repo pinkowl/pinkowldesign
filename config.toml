@@ -1,6 +1,3 @@
-
-
-
 baseurl = "https://pinkowl.github.io"
 languageCode = "en-us"
 title = "Pink Owl Design"
@@ -23,8 +20,8 @@ googleAnalytics = ""
 
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
-	name = "Your name"
-	description = "Your description"
+	name = "Pink Owl Design"
+	description = "Bespoke Cakes and Graphic Design"
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
@@ -32,12 +29,12 @@ googleAnalytics = ""
 
 	# Navigation
 	[params.navigation]
-		brand = "Hugo Creative Theme"
+		#brand = ""
 
 		[params.navigation.links]
 			about     = "About"
-			services  = "Services"
-			portfolio = "Portfolio"
+			services  = "Social"
+			#portfolio = "Portfolio"
 			contact   = "Contact"
 
 
@@ -45,40 +42,44 @@ googleAnalytics = ""
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Pink Owl Design"
-		subtitle   = "I make awesome designs"
+		subtitle   = "Where our passion for stunning, delicious bespoke cakes and cupcakes comes together with amazing and creative graphic design solutions for your needs"
 		buttonText = "Find out more"
 
 
 	# About section
 	[params.about]
 		headline    = "We've got what you need!"
-		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-		buttonText  = "Get started!"
+		description = "Need a cake for that special birthday? New logo for your business? Delicious cupcakes for that babyshower? Birthday invitations? Image editing? Wedding stationary? We have got you covered! "
+		#buttonText  = "Get started!"
 
 
 	# Service section
 	[params.services]
-		headline = "At your service"
+		headline = "Look, Like and #Tag!"
 
         [[params.services.list]]
-            icon = "fa-diamond"
-            title = "Sturdy Templates"
-            description = "Our templates are updated regularly so they don't break."
-
-        [[params.services.list]]
-			icon = "fa-paper-plane"
-			title = "Ready to Ship"
-			description = "You can use this theme as is, or you can make changes!"
+			title = "Behance Portfolio"
+			description = "Check us out on Behance for an extensive portfolio of our works."
+			link = "https://www.behance.net/stardustedb29c"
+			fontAwesome = 'fa fa-4x fa-behance wow bounceIn text-primary'
 
 		[[params.services.list]]
-            icon = "fa-newspaper-o"
-            title = "Up to Date"
-            description = "We update dependencies to keep things fresh."
+            title = "Facebook"
+            description = "Like and scribble on our wall"
+			fontAwesome = 'fa fa-4x fa-facebook-square wow bounceIn text-primary'
+			link = "https://www.facebook.com/Pink-Owl-Design-2065631860380240"
 
-        [[params.services.list]]
-            icon = "fa-heart"
-            title = "Made with Love"
-            description = "You have to make your websites with love these days!"
+		[[params.services.list]]
+            title = "Twitter"
+            description = "Follow us @Pink_Owl_Design"
+			fontAwesome = 'fa fa-4x fa-twitter wow bounceIn text-primary'
+			link = "https://twitter.com/Pink_Owl_Design"
+
+        #[[params.services.list]]
+        #    icon = "fa-heart"
+        #    title = "Made with Love"
+        #    description = "Personal creations for you"
+		#	fontAwesome = 'fa fa-4x fa-heart wow bounceIn text-primary'
 
 
     # Portfolio modals
@@ -90,18 +91,18 @@ googleAnalytics = ""
 
     # Aside section
 	[params.aside]
-		headline = "Get the Creative Theme for Hugo"
+		#headline = "Get the Creative Theme for Hugo"
 
 		[params.aside.button]
-			text = "Download now"
+			#text = "Download now"
 			link = "//github.com/digitalcraftsman/hugo-creative-theme"
 
 	# Contact section
 	[params.contact]
 		headline = "Let's Get In Touch!"
-		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
-		phone = "123-456-6789"
-		email = "feedback@startbootstrap.com"
+		description = "Ready to start your next project with us? Want a gorgeous cake for that special occasion? That's great! Give us a call or send us an email and we will get back to you."
+		phone = "+44 (0) 7522 714 015"
+		email = "pinkowl_design@outlook.com"
 
 	# Google Maps section
 	# [params.location]
