@@ -1,4 +1,4 @@
-baseurl = "https://pinkowl.github.io"
+baseurl = "https://pinkowl.github.io/pinkowldesign"
 languageCode = "en-us"
 title = "Pink Owl Design"
 theme = "hugo-creative-theme"
