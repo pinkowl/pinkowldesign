@@ -1,14 +1,16 @@
 #!/bin/bash
 CNAME=www.pinkowl-design.com
 
+echo "Deleting old publication"
+rm -rf public
+
 if [[ $(git status -s) ]]
 then
     echo "The working directory is dirty. Please commit any pending changes."
     exit 1;
 fi
 
-echo "Deleting old publication"
-rm -rf public
+echo "Starting Publish process"
 mkdir public
 git worktree prune
 rm -rf .git/worktrees/public/
