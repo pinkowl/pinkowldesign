@@ -1,4 +1,5 @@
 #!/bin/bash
+CNAME=www.pinkowl-design.com
 
 if [[ $(git status -s) ]]
 then
@@ -23,6 +24,7 @@ hugo
 
 echo "Updating gh-pages branch"
 cd public \
+&& echo $CNAME >> ./CNAME \
 && git add --all \
 && git commit -m "Publishing to gh-pages (publish.sh) $(date)"
 
